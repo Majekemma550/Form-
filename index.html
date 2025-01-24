@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="shortcut icon" href="images/Babe (1).PNG" type="image/jpg"> -->
+     <link rel="shortcut icon" href="images/Eyo Akak.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="form-box">
+            <form action="" name="Formfill" onsubmit="return validation()">
+                <h2>Register</h2>
+                <p id="result"></p>
+                <div class="input-box">
+                    <box-icon type='solid' name='user' color="white"></box-icon>
+                    <input type="text" name="Username" placeholder="Username">
+                </div>
+                <div class="input-box">
+                    <box-icon type='solid' name='envelope' color="white"></box-icon>
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <box-icon type='solid' name='lock-alt' color="white"></box-icon>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="input-box">
+                    <box-icon type='solid' name='lock-alt' color="white"></box-icon>
+                    <input type="password" name="cPassword" placeholder="Confirm Password">
+                </div>
+                <div class="button">
+                    <input type="submit" class="btn" onclick="validation()" value="Register">
+                </div>
+                <div class="group">
+                   <span><a href="" style="background-color: #06066F;color: white;text-decoration: none;padding: 5px 25px; border-radius: 15px;">Read More</a></span> 
+                   <span><a href="" style="background-color: white;color: #06066F;text-decoration: none;padding: 5px 25px; border-radius: 15px;">Read More</a>
+                    
+ </span>                    <span><a href="">Forget-Password</a></span>
+                    <span><a href="">Login</a></span>
+                </div>
+            </form>
+        </div>
+        
+        <div class="popup" id="popup">
+            <box-icon name='check-square' color="063d06" size="60px"></box-icon>
+
+            <h2>Thank You</h2>
+            <p>Your Registration was succesfull.Thank You!!</p>
+            <a href="log in.html"><button onclick="ClosesSlide()">OK</button></a>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="index.js"></script>
+</bo zzdy>
+</html>
